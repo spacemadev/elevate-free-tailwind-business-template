@@ -1,4 +1,4 @@
-![Elevate Template](https://spacema-dev.com/wp-content/uploads/2024/05/Elevate-free-tailwind-business-template-768x1787.jpg)
+![Elevate Template](https://spacema-dev.com/elevate/elevate_main_image.png)
 
 # Elevate - Free Tailwind Business Template
 
