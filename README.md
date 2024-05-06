@@ -36,7 +36,7 @@ Get started today and elevate your business to new heights!
 
 ### License:
 
-This template is licensed under the MIT License. You can find more details in the [LICENSE](LICENSE) file.
+This template is licensed under the MIT License. 
 
 ### Demo:
 
