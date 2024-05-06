@@ -1,3 +1,31 @@
+![Elevate Template](https://spacema-dev.com/wp-content/uploads/2024/05/Elevate-free-tailwind-business-template-768x1787.jpg)
+
+# Elevate - Free Tailwind Business Template
+
+Elevate is a free, modern, and responsive business website template built with Tailwind CSS.
+
+## Key Features:
+
+### Homepage:
+- Captivate visitors with a beautiful hero section.
+- Showcase your valued clients with a seamless client slider.
+- Highlight your key features to grab attention.
+
+### Dedicated Pages:
+- **404 Page:** Provide a user-friendly experience even for broken links.
+- **Contact Page:** Effortlessly connect with leads through a user-friendly contact form, integrated map, and clear contact information.
+- **Portfolio Page:** Showcase your best work in style with a clean and filterable portfolio section.
+- **Team Page:** Introduce your team and build trust with potential clients.
+- **About Us Page:** Tell your story and highlight your company's unique features.
+- **Reviews Page:** Build credibility by displaying positive client reviews.
+
+### Tailwind CSS powered:
+- Enjoy the benefits of Tailwind's utility-first approach for rapid and easy customization.
+
+## Elevate is the perfect solution for businesses, agencies, and freelancers looking to establish a strong online presence with minimal effort.
+
+Get started today and elevate your business to new heights!
+
 ### License:
 
 This template is licensed under the MIT License. You can find more details in the [LICENSE](LICENSE) file.
