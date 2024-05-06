@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="assets/images/favicon.png" />
+    <title>Reviews page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <header class="bg-gray-dark sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center py-4">
+            <!-- Left section: Logo -->
+            <div class="flex items-center">
+                <img src="assets/images/logo-blue.png" alt="Logo" class="h-14 w-auto mr-4">
+            </div>
+
+            <!-- Hamburger menu (for mobile) -->
+            <div class="flex md:hidden">
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Center section: Menu -->
+            <nav class="hidden md:flex md:flex-grow justify-center">
+                <ul class="flex justify-center space-x-4 text-white">
+                    <li><a href="index.html" class="hover:text-secondary font-bold">Home</a></li>
+                    <li><a href="aboutus.html" class="hover:text-secondary font-bold">About us</a></li>
+                    <li><a href="reviews.html" class="hover:text-secondary font-bold">Reviews</a></li>
+                    <li><a href="portfolio.html" class="hover:text-secondary font-bold">Portfolio</a></li>
+                    <li><a href="team.html" class="hover:text-secondary font-bold">Team</a></li>
+                    <li><a href="404.html" class="hover:text-secondary font-bold">404</a></li>
+                    <li><a href="contact.html" class="hover:text-secondary font-bold">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right section: Buttons (for desktop) -->
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="https://spacema-dev.com/elevate-free-tailwind-business-template/"
+                    class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Get
+                    started</a>
+            </div>
+        </div>
+    </header>
+    <!-- Mobile menu -->
+    <nav id="mobile-menu-placeholder" class="mobile-menu hidden flex flex-col items-center space-y-8 md:hidden">
+        <ul>
+            <li><a href="index.html" class="hover:text-secondary font-bold">Home</a></li>
+            <li><a href="aboutus.html" class="hover:text-secondary font-bold">About us</a></li>
+            <li><a href="reviews.html" class="hover:text-secondary font-bold">Reviews</a></li>
+            <li><a href="portfolio.html" class="hover:text-secondary font-bold">Portfolio</a></li>
+            <li><a href="team.html" class="hover:text-secondary font-bold">Team</a></li>
+            <li><a href="404.html" class="hover:text-secondary font-bold">404</a></li>
+            <li><a href="contact.html" class="hover:text-secondary font-bold">Contact</a></li>
+        </ul>
+        <div class="flex flex-col mt-6 space-y-2 items-center">
+            <a href="https://spacema-dev.com/elevate-free-tailwind-business-template/"
+                class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block flex items-center justify-center min-w-[110px]">Download</a>
+        </div>
+    </nav>
+
+    <section id="reviews" class="bg-white py-16 flex items-center justify-center">
+        <div class="text-gray-txt pt-8">
+            <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+                <div class="mb-10 space-y-4 px-6 md:px-0">
+                    <h2 class="text-3xl font-bold text-center mb-8 text-primary">Clients reviews</h2>
+                </div>
+                <div class="md:columns-2 lg:columns-3 gap-8 space-y-8">
+                    <div class="aspect-auto p-8 rounded-3xl bg-white shadow-lg">
+                        <div class="flex gap-4">
+                            <img class="w-20 h-20 rounded-full object-cover" src="assets/images/reviews/testimonials-1.jpg" alt="user avatar">
+                            <div>
+                                <h6 class="text-lg font-semibold text-primary">John Smith</h6>
+                                <p class="text-medium text-gray-txt">CEO, XYZ Company</p>
+                            </div>
+                        </div>
+                        <p class="mt-5">We've been using this service for over a year now, and it has greatly improved
+                            our productivity and efficiency. Highly recommended!</p>
+                    </div>
+                    <div class="aspect-auto p-8 rounded-3xl bg-white shadow-lg">
+                        <div class="flex gap-4"> 
+                            <img class="w-20 h-20 rounded-full object-cover" src="assets/images/reviews/testimonials-2.jpg" alt="user avatar">
+                            <div>
+                                <h6 class="text-lg font-semibold text-primary">Emily Johnson</h6>
+                                <p class="text-medium text-gray-txt">Marketing Manager, ABC Corporation</p>
+                            </div>
+                        </div>
+                        <p class="mt-5">The team provided excellent support and guidance throughout the project. We're
+                            very satisfied with the results!</p>
+                    </div>
+                    <div class="aspect-auto p-8 rounded-3xl bg-white shadow-lg">
+                        <div class="flex gap-4">
+                            <img class="w-20 h-20 rounded-full object-cover" src="assets/images/reviews/testimonials-1.jpg" alt="user avatar">
+                            <div>
+                                <h6 class="text-lg font-semibold text-primary">Sarah Williams</h6>
+                                <p class="text-medium text-gray-txt">Designer, XYZ Design Studio</p>
+                            </div>
+                        </div>
+                        <p class="mt-5">Working with this team was a pleasure. Their attention to detail and creativity
+                            exceeded our expectations.</p>
+                    </div>
+                    <div class="aspect-auto p-8 rounded-3xl bg-white shadow-lg">
+                        <div class="flex gap-4">
+                            <img class="w-20 h-20 rounded-full object-cover" src="assets/images/reviews/testimonials-2.jpg" alt="user avatar">
+                            <div>
+                                <h6 class="text-lg font-semibold text-primary">Michael Brown</h6>
+                                <p class="text-medium text-gray-txt">CTO, XYZ Tech Solutions</p>
+                            </div>
+                        </div>
+                        <p class="mt-5">The quality of their work is exceptional. They delivered our project on time and
+                            within budget. Highly impressed!</p>
+                    </div>
+                    <div class="aspect-auto p-8 rounded-3xl bg-white shadow-lg">
+                        <div class="flex gap-4">
+                            <img class="w-20 h-20 rounded-full object-cover" src="assets/images/reviews/testimonials-1.jpg" alt="user avatar">
+                            <div>
+                                <h6 class="text-lg font-semibold text-primary">Jennifer Clark</h6>
+                                <p class="text-medium text-gray-txt">Product Manager, ABC Solutions</p>
+                            </div>
+                        </div>
+                        <p class="mt-5">Their communication and collaboration skills are top-notch. It was a pleasure
+                            working with them!</p>
+                    </div>
+                    <div class="aspect-auto p-8 rounded-3xl bg-white shadow-lg">
+                        <div class="flex gap-4">
+                            <img class="w-20 h-20 rounded-full object-cover" src="assets/images/reviews/testimonials-2.jpg" alt="user avatar">
+                            <div>
+                                <h6 class="text-lg font-semibold text-primary">David Miller</h6>
+                                <p class="text-medium text-gray-txt">Founder, XYZ Startup</p>
+                            </div>
+                        </div>
+                        <p class="mt-5">Their attention to detail and commitment to quality are commendable. We're very
+                            happy with the outcome!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="bg-primary py-4">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="flex flex-col items-center rounded-lg bg-gray-100 p-4 sm:p-8 lg:flex-row lg:justify-between">
+                <div class="mb-4 sm:mb-8 lg:mb-0">
+                    <h2 class="text-center text-xl font-bold text-white sm:text-2xl lg:text-left lg:text-3xl">Stay
+                        Updated</h2>
+                    <p class="text-center text-white lg:text-left">Subscribe to our newsletter</p>
+                </div>
+                <div class="flex flex-col items-center w-96 lg:items-end">
+                    <form class="flex w-full gap-2">
+                        <input placeholder="Enter your email address"
+                            class="bg-gray-white w-full flex-1 rounded px-3 py-2 text-gray-txt placeholder-gray-dark focus:outline-none" />
+                        <button
+                            class="inline-block rounded bg-white px-8 py-2 text-center text-sm font-semibold text-primary  md:text-base hover:text-secondary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10">
+        <img src="assets/images/logo-gray.png" alt="Logo" class="h-14 w-auto mx-auto mb-5">
+        <span class="block text-center text-gray-txt font-semibold">© 2024. All Rights Reserved.
+            Developerd by <a href="https://spacema-dev.com" class="text-primary">Spacema-dev</a>
+        </span>
+        <ul class="flex justify-center mt-10 space-x-8">
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/instagram.png" alt="Instagram" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/youtube.png" alt="YouTube" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/facebook.png" alt="Facebook" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/twitter.png" alt="Twitter" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/linkedin.png" alt="LinkedIn" class="h-10 w-10">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

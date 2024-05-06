@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="46" viewBox="0 0 152 46">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="111.907" height="30.509" fill="#242e45"/>
+    </clipPath>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="152" height="46"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <g id="logo-netflix" transform="translate(20.047 6.745)" clip-path="url(#clip-path)">
+      <g id="layer1" transform="translate(0.118 0.118)">
+        <g id="g3235" transform="translate(0 0)">
+          <path id="path3015" d="M-41.344,179.316q2.335.226,4.662.481l3.426-8.459L-30,180.577q2.507.315,5.006.659l-5.708-16.2,5.71-14.1h-4.836l-.05.069-3.084,7.618-2.708-7.686h-4.775l4.93,13.989Z" transform="translate(136.714 -150.934)" fill="#242e45"/>
+          <path id="path3019" d="M-38.371,178.985v-28.05h-4.774v27.657q2.39.183,4.774.393" transform="translate(130.13 -150.933)" fill="#242e45"/>
+          <path id="path3023" d="M-49.09,177.416c1.289,0,2.575.01,3.86.02V167.131H-39.5v-4.389H-45.23v-7.415h6.6v-4.393h-11.4V177.42c.31,0,.621,0,.932,0" transform="translate(104.993 -150.934)" fill="#242e45"/>
+          <path id="path3035" d="M-49.5,177.684q2.384-.085,4.776-.143V155.328h4.461v-4.393h-13.7v4.393H-49.5v22.356Z" transform="translate(90.586 -150.934)" fill="#242e45"/>
+          <path id="path3039" d="M-57.252,180.642V163.93l5.651,16.037q2.606-.293,5.224-.552v-28.48h-4.579v17.31l-6.1-17.31h-4.776v30.308h.028q2.271-.314,4.551-.6" transform="translate(61.831 -150.933)" fill="#242e45"/>
+          <path id="path3051" d="M-46,155.328v-4.393H-57.4V178.94q5.673-.49,11.388-.823v-4.4q-3.3.192-6.6.439v-7.026h5.734v-4.391h-5.734v-7.414Z" transform="translate(78.023 -150.934)" fill="#242e45"/>
+          <path id="path3055" d="M-41.778,173.51V150.934h-4.794V177.7q5.719.21,11.4.58v-4.4q-3.3-.213-6.6-.372" transform="translate(117.605 -150.934)" fill="#242e45"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

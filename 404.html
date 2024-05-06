@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="assets/images/favicon.png" />
+    <title>404 - Page not found</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <header class="bg-gray-dark sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center py-4">
+            <!-- Left section: Logo -->
+            <div class="flex items-center">
+                <img src="assets/images/logo-blue.png" alt="Logo" class="h-14 w-auto mr-4">
+            </div>
+
+            <!-- Hamburger menu (for mobile) -->
+            <div class="flex md:hidden">
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Center section: Menu -->
+            <nav class="hidden md:flex md:flex-grow justify-center">
+                <ul class="flex justify-center space-x-4 text-white">
+                    <li><a href="index.html" class="hover:text-secondary font-bold">Home</a></li>
+                    <li><a href="aboutus.html" class="hover:text-secondary font-bold">About us</a></li>
+                    <li><a href="reviews.html" class="hover:text-secondary font-bold">Reviews</a></li>
+                    <li><a href="portfolio.html" class="hover:text-secondary font-bold">Portfolio</a></li>
+                    <li><a href="team.html" class="hover:text-secondary font-bold">Team</a></li>
+                    <li><a href="404.html" class="hover:text-secondary font-bold">404</a></li>
+                    <li><a href="contact.html" class="hover:text-secondary font-bold">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right section: Buttons (for desktop) -->
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="https://spacema-dev.com/elevate-free-tailwind-business-template/"
+                    class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Get
+                    started</a>
+            </div>
+        </div>
+    </header>
+    <!-- Mobile menu -->
+    <nav id="mobile-menu-placeholder" class="mobile-menu hidden flex flex-col items-center space-y-8 md:hidden">
+        <ul>
+            <li><a href="index.html" class="hover:text-secondary font-bold">Home</a></li>
+            <li><a href="aboutus.html" class="hover:text-secondary font-bold">About us</a></li>
+            <li><a href="reviews.html" class="hover:text-secondary font-bold">Reviews</a></li>
+            <li><a href="portfolio.html" class="hover:text-secondary font-bold">Portfolio</a></li>
+            <li><a href="team.html" class="hover:text-secondary font-bold">Team</a></li>
+            <li><a href="404.html" class="hover:text-secondary font-bold">404</a></li>
+            <li><a href="contact.html" class="hover:text-secondary font-bold">Contact</a></li>
+        </ul>
+        <div class="flex flex-col mt-6 space-y-2 items-center">
+            <a href="https://spacema-dev.com/elevate-free-tailwind-business-template/"
+                class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block flex items-center justify-center min-w-[110px]">Download</a>
+        </div>
+    </nav>
+
+    <section id="404-page" class="bg-white py-16 flex items-center justify-center min-h-screen">
+        <div class="mx-auto max-w-screen-lg px-4 md:px-8">
+            <div class="grid gap-8 sm:grid-cols-2">
+                <!-- content - start -->
+                <div class="flex flex-col items-center justify-center sm:items-start md:py-24 lg:py-32">
+                    <h1 class="text-4xl font-bold text-primary mb-5">404 - Page Not Found</h1>
+                    <p class="text-gray-txt mb-5">The page you are looking for might have been removed, had its
+                        name changed, or is temporarily unavailable.</p>
+                    <a href="/"
+                        class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Download</a>
+                </div>
+                <!-- content - end -->
+
+                <!-- image - start -->
+                <div class="relative h-80 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
+                    <img src="assets/images/404.jpg" alt="Image" class="w-full h-auto">
+                </div>
+                <!-- image - end -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10">
+        <img src="assets/images/logo-gray.png" alt="Logo" class="h-14 w-auto mx-auto mb-5">
+        <span class="block text-center text-gray-txt font-semibold">© 2024. All Rights Reserved.
+            Developerd by <a href="https://spacema-dev.com" class="text-primary">Spacema-dev</a>
+        </span>
+        <ul class="flex justify-center mt-10 space-x-8">
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/instagram.png" alt="Instagram" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/youtube.png" alt="YouTube" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/facebook.png" alt="Facebook" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/twitter.png" alt="Twitter" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/linkedin.png" alt="LinkedIn" class="h-10 w-10">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

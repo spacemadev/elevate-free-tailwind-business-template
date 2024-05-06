@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="assets/images/favicon.png" />
+    <title>About us page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <header class="bg-gray-dark sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center py-4">
+            <!-- Left section: Logo -->
+            <div class="flex items-center">
+                <img src="assets/images/logo-blue.png" alt="Logo" class="h-14 w-auto mr-4">
+            </div>
+
+            <!-- Hamburger menu (for mobile) -->
+            <div class="flex md:hidden">
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Center section: Menu -->
+            <nav class="hidden md:flex md:flex-grow justify-center">
+                <ul class="flex justify-center space-x-4 text-white">
+                    <li><a href="index.html" class="hover:text-secondary font-bold">Home</a></li>
+                    <li><a href="aboutus.html" class="hover:text-secondary font-bold">About us</a></li>
+                    <li><a href="reviews.html" class="hover:text-secondary font-bold">Reviews</a></li>
+                    <li><a href="portfolio.html" class="hover:text-secondary font-bold">Portfolio</a></li>
+                    <li><a href="team.html" class="hover:text-secondary font-bold">Team</a></li>
+                    <li><a href="404.html" class="hover:text-secondary font-bold">404</a></li>
+                    <li><a href="contact.html" class="hover:text-secondary font-bold">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right section: Buttons (for desktop) -->
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="https://spacema-dev.com/elevate-free-tailwind-business-template/"
+                    class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Get
+                    started</a>
+            </div>
+        </div>
+    </header>
+    <!-- Mobile menu -->
+    <nav id="mobile-menu-placeholder" class="mobile-menu hidden flex flex-col items-center space-y-8 md:hidden">
+        <ul>
+            <li><a href="index.html" class="hover:text-secondary font-bold">Home</a></li>
+            <li><a href="aboutus.html" class="hover:text-secondary font-bold">About us</a></li>
+            <li><a href="reviews.html" class="hover:text-secondary font-bold">Reviews</a></li>
+            <li><a href="portfolio.html" class="hover:text-secondary font-bold">Portfolio</a></li>
+            <li><a href="team.html" class="hover:text-secondary font-bold">Team</a></li>
+            <li><a href="404.html" class="hover:text-secondary font-bold">404</a></li>
+            <li><a href="contact.html" class="hover:text-secondary font-bold">Contact</a></li>
+        </ul>
+        <div class="flex flex-col mt-6 space-y-2 items-center">
+            <a href="https://spacema-dev.com/elevate-free-tailwind-business-template/"
+                class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block flex items-center justify-center min-w-[110px]">Download</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="bg-white py-16 flex flex-col lg:flex-row items-center justify-center px-8">
+        <!-- Text Content -->
+        <div class="flex flex-col justify-center text-center lg:text-left lg:w-5/12 pb-7 lg:py-12 xl:w-5/12 lg:order-1">
+            <p class="mb-5 font-semibold text-gray-dark md:text-lg">Welcome to our platform</p>
+            <h1 class="mb-10 text-4xl font-bold text-primary lg:w-4/5">Innovative solutions for your online presence</h1>
+            <p class="mb-10 text-gray-txt lg:w-4/5">Discover a new way to create stunning websites with our cutting-edge tools and resources. Let us help you bring your vision to life!</p>
+            <div class="flex justify-center lg:justify-start">
+                <a href="#" class="bg-primary hover:bg-secondary text-white font-semibold px-4 py-2 rounded-full inline-block">Get Started</a>
+            </div>
+        </div>
+        <!-- Image -->
+        <div class="h-48 lg:h-auto overflow-hidden lg:order-2 lg:w-5/12 lg:px-8">
+            <!-- Adjust the src attribute with your actual image URL -->
+            <img src="/assets/images/3.jpg" loading="lazy" alt="hero photo" class="h-full w-full object-cover object-center rounded-lg bg-gray-100 shadow-lg" />
+        </div>
+    </section>
+    
+
+    <section id="features">
+        <div class="bg-white py-6 sm:py-8 lg:py-12">
+            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <!-- text - start -->
+                <div class="text-center mb-20">
+                    <h2 class="text-4xl font-bold mb-4 text-primary">Key Features</h2>
+                    <p class="text-lg text-grey-txt font-semibold">Discover what sets us apart</p>
+                </div>
+                <!-- text - end -->
+                <div class="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
+                    <!-- Feature 1 -->
+                    <div class="flex gap-4 md:gap-6">
+                        <div
+                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                            <img src="assets/images/features/1.svg" alt="Feature Icon" class="h-6 w-6 md:h-8 md:w-8">
+                        </div>
+                        <div>
+                            <h3 class="mb-2 text-lg font-semibold md:text-xl text-primary">Speed</h3>
+                            <p class="mb-2 text-gray-txt">With our solution, experience lightning-fast performance for your
+                                website.</p>
+                            <a href="#"
+                                class="font-bold text-gray-dark transition duration-100 hover:text-primary active:text-primary">Learn
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- Feature 1 End -->
+    
+                    <!-- Feature 2 -->
+                    <div class="flex gap-4 md:gap-6">
+                        <div
+                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                            <img src="assets/images/features/2.svg" alt="Feature Icon" class="h-6 w-6 md:h-8 md:w-8">
+                        </div>
+                        <div>
+                            <h3 class="mb-2 text-lg font-semibold md:text-xl text-primary">Flexibility</h3>
+                            <p class="mb-2 text-gray-txt">Our solution provides unmatched flexibility, allowing you to
+                                customize your website according to your needs.</p>
+                            <a href="#"
+                                class="font-bold text-gray-dark transition duration-100 hover:text-primary active:text-primary">Learn
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- Feature 2 End -->
+    
+                    <!-- Feature 3 -->
+                    <div class="flex gap-4 md:gap-6">
+                        <div
+                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                            <img src="assets/images/features/3.svg" alt="Feature Icon" class="h-6 w-6 md:h-8 md:w-8">
+                        </div>
+                        <div>
+                            <h3 class="mb-2 text-lg font-semibold md:text-xl text-primary">Security</h3>
+                            <p class="mb-2 text-gray-txt">Rest assured with top-notch security features that keep your
+                                website and data safe.</p>
+                            <a href="#"
+                                class="font-bold text-gray-dark transition duration-100 hover:text-primary active:text-primary">Learn
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- Feature 3 End -->
+    
+                    <!-- Feature 4 -->
+                    <div class="flex gap-4 md:gap-6">
+                        <div
+                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                            <img src="assets/images/features/4.svg" alt="Feature Icon" class="h-6 w-6 md:h-8 md:w-8">
+                        </div>
+                        <div>
+                            <h3 class="mb-2 text-lg font-semibold md:text-xl text-primary">Simplicity</h3>
+                            <p class="mb-2 text-gray-txt">Our solution is designed with simplicity in mind, making it easy
+                                for anyone to use.</p>
+                            <a href="#"
+                                class="font-bold text-gray-dark transition duration-100 hover:text-primary active:text-primary">Learn
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- Feature 4 End -->
+    
+                    <!-- Feature 5 -->
+                    <div class="flex gap-4 md:gap-6">
+                        <div
+                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                            <img src="assets/images/features/5.svg" alt="Feature Icon" class="h-6 w-6 md:h-8 md:w-8">
+                        </div>
+                        <div>
+                            <h3 class="mb-2 text-lg font-semibold md:text-xl text-primary">Integration</h3>
+                            <p class="mb-2 text-gray-txt">Seamlessly integrate our solution with your existing tools and
+                                workflows.</p>
+                            <a href="#"
+                                class="font-bold text-gray-dark transition duration-100 hover:text-primary active:text-primary">Learn
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- Feature 5 End -->
+    
+                    <!-- Feature 6 -->
+                    <div class="flex gap-4 md:gap-6">
+                        <div
+                            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl">
+                            <img src="assets/images/features/6.svg" alt="Feature Icon" class="h-6 w-6 md:h-8 md:w-8">
+                        </div>
+                        <div>
+                            <h3 class="mb-2 text-lg font-semibold md:text-xl text-primary">Reliability</h3>
+                            <p class="mb-2 text-gray-txt">Count on our solution for reliable performance and uptime.</p>
+                            <a href="#"
+                                class="font-bold text-gray-dark transition duration-100 hover:text-primary active:text-primary">Learn
+                                More</a>
+                        </div>
+                    </div>
+                    <!-- Feature 6 End -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="bg-primary py-4">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="flex flex-col items-center rounded-lg bg-gray-100 p-4 sm:p-8 lg:flex-row lg:justify-between">
+                <div class="mb-4 sm:mb-8 lg:mb-0">
+                    <h2 class="text-center text-xl font-bold text-white sm:text-2xl lg:text-left lg:text-3xl">Stay
+                        Updated</h2>
+                    <p class="text-center text-white lg:text-left">Subscribe to our newsletter</p>
+                </div>
+                <div class="flex flex-col items-center w-96 lg:items-end">
+                    <form class="flex w-full gap-2">
+                        <input placeholder="Enter your email address"
+                            class="bg-gray-white w-full flex-1 rounded px-3 py-2 text-gray-txt placeholder-gray-dark focus:outline-none" />
+                        <button
+                            class="inline-block rounded bg-white px-8 py-2 text-center text-sm font-semibold text-primary  md:text-base hover:text-secondary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10">
+        <img src="assets/images/logo-gray.png" alt="Logo" class="h-14 w-auto mx-auto mb-5">
+        <span class="block text-center text-gray-txt font-semibold">© 2024. All Rights Reserved.
+            Developerd by <a href="https://spacema-dev.com" class="text-primary">Spacema-dev</a>
+        </span>
+        <ul class="flex justify-center mt-10 space-x-8">
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/instagram.png" alt="Instagram" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/youtube.png" alt="YouTube" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/facebook.png" alt="Facebook" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/twitter.png" alt="Twitter" class="h-10 w-10">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="assets/images/social_icons/linkedin.png" alt="LinkedIn" class="h-10 w-10">
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
