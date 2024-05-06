@@ -4,6 +4,14 @@
 
 Elevate is a free, modern, and responsive business website template built with Tailwind CSS.
 
+### Demo:
+
+Check out the demo of Blue Star [here](https://spacema-dev.com/elevate).
+
+### Template Page:
+
+Visit the Elevate Tailwind template page [here](https://spacema-dev.com/elevate-free-tailwind-business-template/).
+
 ## Key Features:
 
 ### Homepage:
