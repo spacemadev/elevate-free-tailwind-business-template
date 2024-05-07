@@ -40,7 +40,7 @@ This template is licensed under the MIT License.
 
 ### Demo:
 
-Check out the demo of Blue Star [here](https://spacema-dev.com/elevate).
+Check out the demo of Elevate Tailwind template [here](https://spacema-dev.com/elevate).
 
 ### Template Page:
 
