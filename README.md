@@ -12,7 +12,7 @@ Check out the demo of Elevate Tailwind template [here](https://spacema-dev.com/e
 
 Visit the Elevate Tailwind template page [here](https://spacema-dev.com/elevate-free-tailwind-business-template/).
 
-## If you like this template, please give a ⭐ to this repository!
+## If you like this template, please give a ⭐ to this repository, and don't forget to share it with your friends and colleagues!
 
 ## Key Features:
 
