@@ -12,6 +12,8 @@ Check out the demo of Elevate Tailwind template [here](https://spacema-dev.com/e
 
 Visit the Elevate Tailwind template page [here](https://spacema-dev.com/elevate-free-tailwind-business-template/).
 
+### More [Free Tailwind Css Templates](https://spacema-dev.com/free-tailwind-css-templates/) 
+
 ## If you like this template, please give a ⭐ to this repository!
 
 ## Key Features:
